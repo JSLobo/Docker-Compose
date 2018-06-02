@@ -1,10 +1,10 @@
 version: '3'
 services:
   react:
-    image: danielyjuanfront
+    image: jswolf/danielyjuanfront:frontdjtag
     ports:
       - "3000:3000"
   node:
-    image: danielyjuanback
+    image: jswolf/danielyjuanback:backdjtag
     ports:
       - "8000:8000"
