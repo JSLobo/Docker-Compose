@@ -1,0 +1,10 @@
+version: '3'
+services:
+  react:
+    image: danielyjuanfront
+    ports:
+      - "3000:3000"
+  node:
+    image: danielyjuanback
+    ports:
+      - "8000:8000"
